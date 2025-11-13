@@ -1,0 +1,25 @@
+{
+  "name": "pushchain-auto-bot",
+  "version": "1.0.0",
+  "description": "An automated script for interacting with Push Chain features, including faucet claiming, token launching, domain registration, NFT minting, and cryptocurrency redeem links.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "eon-five",
+    "pushchain",
+    "faucet",
+    "airdrop",
+    "crypto",
+    "telegram-bot"
+  ],
+  "author": "vikitoshi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
